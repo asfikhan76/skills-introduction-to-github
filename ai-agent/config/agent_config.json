@@ -1,0 +1,93 @@
+{
+  "name": "mobile-ai-agent",
+  "version": "1.0.0",
+  "description": "Advanced AI agent for mobile devices with app launching, voice commands, and intelligent automation",
+  "main": "src/ai_agent_core.py",
+  "keywords": [
+    "ai",
+    "agent",
+    "mobile",
+    "automation",
+    "voice-assistant",
+    "app-launcher",
+    "intelligent-assistant"
+  ],
+  "author": "AI Agent Development Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/asfikhan76/skills-introduction-to-github"
+  },
+  "features": {
+    "app_management": {
+      "launch_apps": true,
+      "smart_suggestions": true,
+      "app_switching": true,
+      "background_management": true
+    },
+    "voice_commands": {
+      "natural_language": true,
+      "multi_language": true,
+      "context_aware": true,
+      "custom_training": true
+    },
+    "automation": {
+      "task_chaining": true,
+      "conditional_execution": true,
+      "routine_creation": true,
+      "scheduled_tasks": true
+    },
+    "integrations": {
+      "cross_app_actions": true,
+      "api_integration": true,
+      "cloud_sync": true,
+      "third_party_services": true
+    },
+    "privacy": {
+      "on_device_processing": true,
+      "encrypted_communication": true,
+      "privacy_mode": true,
+      "data_control": true
+    },
+    "contextual_awareness": {
+      "location_based": true,
+      "time_based": true,
+      "activity_recognition": true,
+      "device_state_monitoring": true
+    }
+  },
+  "system_requirements": {
+    "android": {
+      "min_version": "8.0",
+      "api_level": 26,
+      "ram": "2GB",
+      "storage": "100MB"
+    },
+    "ios": {
+      "min_version": "13.0",
+      "ram": "2GB",
+      "storage": "100MB"
+    }
+  },
+  "supported_languages": [
+    "English",
+    "Spanish",
+    "French",
+    "German",
+    "Italian",
+    "Portuguese",
+    "Russian",
+    "Chinese",
+    "Japanese",
+    "Korean",
+    "Hindi",
+    "Arabic"
+  ],
+  "configuration": {
+    "default_wake_word": "Hey Assistant",
+    "processing_modes": ["on_device", "cloud", "hybrid"],
+    "max_command_history": 1000,
+    "learning_enabled": true,
+    "privacy_mode": false
+  }
+}
